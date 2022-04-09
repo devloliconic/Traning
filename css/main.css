@@ -603,7 +603,10 @@ label a:hover{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    gap: 67px;
+    gap: 37px;
+}
+.lowblock-content{
+    max-width: 284px;
 }
 .lowblock-content-title{
     margin-top: 0;
@@ -619,6 +622,7 @@ label a:hover{
     line-height: 150%;
     color: #2B3541;
     opacity: 0.6;
+    max-width: 281px;
 }
 .footer{
     background-color: #F3F3F3;
