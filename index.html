@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header-items">
+                    <div class="header-logo-burger">
+                        <a class="header-logo" href="#"></a>
+                        <button class="burger-menu"  onclick="openModal()"></button>
+                    </div>
+                           
+                    <nav class="navigation-nav">
+                        <ul class="navigation">
+                            <li ><a class="nav-link" href="#">Мероприятия</a></li>
+                            <li ><a class="nav-link" href="#">Расписание</a></li>
+                            <li ><a class="nav-link" href="#">О компании</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                    <div class="social">
+                        <a class = "social-inst" href="#"></a>
+                        <a class = "social-book" href="#"></a>
+                    </div>
+            </div>
+        </div>
+    </header>
+    <div class="image-box">
+        <div class="container">
+            <div class="image-box-items">
+                <div class="image-box-text">
+                    <h1 class="image-box-title">онлайн тренировки любой сложности</h1>
+                    <span class="image-box-training">
+                        <p>> 15</p>
+                        <p>тренировок</p>
+                    </span>
+                    <div class="image-box-text-subtitle-link">
+                        <p class="image-box-subtitle">в области спортивной физиологии&nbsp;и&nbsp;нутрициологии</p>
+                        <a class="yellow-btn" href="#">Узнать подробнее</a>
+                        
+                    </div>
+                    <a href="#trainingSect" class="down-btn"></a>
+                    
+                </div>
+                <div class="yellow-gradient">
+                    <div class="yellow-gradient-left"></div>
+                    <div class="yellow-gradient-right"></div>
+                </div>
+                <div class="girl-box">
+                    <img class="yellow-box-image" src="img/girl.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="event">
+            <div class="container">
+                <div class="event-title">
+                    <h2>Ближайшие события</h2>
+                </div>
+                <div class="event-flex">
+                    <div class="event-flex-item">
+                        <div class="event-flex-item-text">
+                            <p class="event-flex-item-data">29.06 - 4.07</p>
+                            <h3 class="event-flex-item-title">Марафон выносливости</h3>
+                            <a id="itemLink"class="event-flex-item-link" href="#">Учавствовать</a>
+                        </div>
+                        <div class="botom-plus"></div>
+                        <p class="event-flex-item-bottomtext">марафон</p>
+                    </div>
+                    <div class="event-flex-item">
+                        <div class="event-flex-item-text">
+                            <p class="event-flex-item-data">9.07</p>
+                            <h3 class="event-flex-item-title">Как стать тренером?</h3>
+                            <a id="itemLink"class="event-flex-item-link" href="#">Учавствовать</a>
+                        </div>
+                        <div class="botom-plus"></div>
+                        <p class="event-flex-item-bottomtext">вебинар</p>
+                    </div>
+                    <div class="event-flex-item">
+                        <div class="event-flex-item-text">
+                            <p class="event-flex-item-data">15.07</p>
+                            <h3 class="event-flex-item-title">Йога, как стиль жизни</h3>
+                            <a id="itemLink"class="event-flex-item-link" href="#">Учавствовать</a>
+                        </div>
+                        <div class="botom-plus"></div>
+                        <p class="event-flex-item-bottomtext">вебинар</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="trainingSect" class="training">
+            <div class="container">
+                <div class="training-header">
+                    <h2 class="training-header-title">Расписание тренировок</h2>
+                    <p class="training-header-date">22 - 28 июня</p>
+                </div>
+                <div class="training-grid">
+                    <div class="training-grid-event">
+                        <p class="training-grid-event-box-date">22 июня, 10:00</p>
+                        <div class="training-grid-event-box">
+                            <img class="training-grid-event-box-img" src="img/training/01.svg" alt="">
+                            <h3 class="training-grid-event-box-title">Функциональный тренинг</h3>
+                        </div>
+                        <p class="training-grid-event-box-subtitle">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+                    </div>
+                    <div class="training-grid-event">
+                        <p class="training-grid-event-box-date">24 июня, 10:00</p>
+                        <div class="training-grid-event-box">
+                            <img class="training-grid-event-box-img" src="img/training/02.svg" alt="">
+                            <h3 class="training-grid-event-box-title">Body sculpt</h3>
+                        </div>
+                        <p class="training-grid-event-box-subtitle">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+                    </div>
+                    <div class="training-grid-event">
+                        <p class="training-grid-event-box-date">26 июня, 11:00</p>
+                        <div class="training-grid-event-box">
+                            <img class="training-grid-event-box-img" src="img/training/03.svg" alt="">
+                            <h3 class="training-grid-event-box-title">L.A.B.</h3>
+                        </div>
+                        <p class="training-grid-event-box-subtitle">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+                    </div>
+                    <div class="training-grid-event">
+                        <p class="training-grid-event-box-date">23 июня, 10:00</p>
+                        <div class="training-grid-event-box">
+                            <img class="training-grid-event-box-img" src="img/training/04.svg" alt="">
+                            <h3 class="training-grid-event-box-title">Силовой микс</h3>
+                        </div>
+                        <p class="training-grid-event-box-subtitle">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+                    </div>
+                    <div class="training-grid-event">
+                        <p class="training-grid-event-box-date">25 июня, 11:00</p>
+                        <div class="training-grid-event-box">
+                            <img class="training-grid-event-box-img" src="img/training/05.svg" alt="">
+                            <h3 class="training-grid-event-box-title">Дыхательные практики</h3>
+                        </div>
+                        <p class="training-grid-event-box-subtitle">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+                    </div>
+                    <div class="training-grid-event">
+                        <p class="training-grid-event-box-date">27 июня, 10:00</p>
+                        <div class="training-grid-event-box">
+                            <img class="training-grid-event-box-img" src="img/training/06.svg" alt="">
+                            <h3 class="training-grid-event-box-title">Комплексная разминка</h3>
+                        </div>
+                        <p class="training-grid-event-box-subtitle">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="malling">
+        <div class="container">
+            <div class="malling-content">
+                <h2 class="malling-title">Подпишитесь на рассылку</h2>
+                <div class="malling-input-inf">
+                    <div class="malling-inputpanel">
+                        <input class="input-email" type="email" max="30" placeholder="Ваш e-mail">
+                        <a href="#" class="yellow-btn">подписаться</a>
+                    </div>
+                    <div class="cheked">
+                        <input type="checkbox" id="01" class="checkbox">
+                        <label for="01"><p>Согласен с обработкой&nbsp;</p><a href="#" target="_blank"> персональных данных</a></label>
+                    </div>
+                    <a href="#" class="yellow-btn">подписаться</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="aboutas">
+        <div class="container">
+            <div class="abouts_all">
+                <div class="aboutas-hightblock">
+                    <div class="aboutas-hightblock-left">
+                        <h2 class="aboutas-hightblock-left-title">О компании</h2>
+                        <p class="aboutas-hightblock-left-subtitle">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы&nbsp;проводим <br> не только онлайн-тренировки.</p>
+                        <a href="" class="yellow-btn">Записаться</a>
+                    </div>
+                    <div class="trener-img"></div>
+                </div>
+                <div class="aboutas-lowblock">
+                    <div class="lowblock-content">
+                        <h3 class="lowblock-content-title">Экономия времени</h3>
+                        <p class="lowblock-contetn-subtitle">Не&nbsp;нужно&nbsp;тратить&nbsp;время на дорогу</p>
+                    </div>
+                    <div class="lowblock-content">
+                        <h3 class="lowblock-content-title">Индивидуальный подход</h3>
+                        <p class="lowblock-contetn-subtitle">Внимание тренера пренадлежит только вам</p>
+                    </div>
+                    <div class="lowblock-content">
+                        <h3 class="lowblock-content-title">Экономия денег</h3>
+                        <p class="lowblock-contetn-subtitle">Средняя цена одной&nbsp;тренировки&nbsp;-&nbsp;700₽</p>
+                    </div>
+                    <div class="lowblock-content">
+                        <h3 class="lowblock-content-title">Опытный персонал</h3>
+                        <p class="lowblock-contetn-subtitle">Стаж работы у наших тренеров от 5 лет</p>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+    <div class="aboutas-adaptive">
+        <div class="container">
+            <div class="abouts_all">
+                <h2 class="aboutas-hightblock-left-title">О компании</h2>
+                <p class="aboutas-hightblock-left-subtitle">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы&nbsp;проводим <br> не только онлайн-тренировки.</p>
+                    <div class="lowblock-content">
+                        <h3 class="lowblock-content-title">Экономия времени</h3>
+                        <p class="lowblock-contetn-subtitle">Не&nbsp;нужно&nbsp;тратить&nbsp;время на дорогу</p>
+                    </div>
+                    <div class="lowblock-content">
+                        <h3 class="lowblock-content-title">Индивидуальный подход</h3>
+                        <p class="lowblock-contetn-subtitle">Внимание тренера пренадлежит только вам</p>
+                    </div>
+                    <div class="lowblock-content">
+                        <h3 class="lowblock-content-title">Экономия денег</h3>
+                        <p class="lowblock-contetn-subtitle">Средняя цена одной&nbsp;тренировки&nbsp;-&nbsp;700₽</p>
+                    </div>
+                    <div class="lowblock-content">
+                        <h3 class="lowblock-content-title">Опытный персонал</h3>
+                        <p class="lowblock-contetn-subtitle">Стаж работы у наших тренеров от 5 лет</p>
+                </div>   
+                <a href="" class="yellow-btn">Записаться</a>
+                <div class="trener-img"></div>  
+            </div>
+        </div> 
+    </div>    
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo-nav">
+                        <img class="header-logo" src="img/header/logo.svg" alt="">
+                        <div class="navigation-nav">
+                            <ul class="navigation">
+                                <li ><a class="nav-link" href="#">Мероприятия</a></li>
+                                <li ><a class="nav-link" href="#">Расписание</a></li>
+                                <li ><a class="nav-link" href="#">О компании</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-mail-socials">
+                        <h2 class="footer-mail-title">info@freefit.com</h2>
+                        <div class="socials">
+                            <a class = "social-inst-footer" href="#"></a>
+                            <a class = "social-book-footer" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-autor">
+                    <p class="rights">© 2020, Все права защищены</p>
+                    <p class="info">Сделано в рамках курса учебной платформы <a class="info-link" href="#">Annblok</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal" id="modal">
+        <div class="container">
+            <div class="logo-close">
+                <a class="header-logo" href="#"></a>
+                <button class="burger-close" onclick="closeModal()"></button>
+            </div>
+            <ul class="navigation">
+                <li ><a class="nav-link" href="#">Мероприятия</a></li>
+                <div class="br"></div>
+                <li ><a class="nav-link" href="#">Расписание</a></li>
+                <div class="br"></div>
+                <li ><a class="nav-link" href="#">О компании</a></li>
+            </ul>
+            <div class="socials">
+                <a class = "social-inst-footer" href="#"></a>
+                <a class = "social-book-footer" href="#"></a>
+            </div>
+        </div>    
+    </div>  
+    <script src="js/main.js"></script>
+</body>
+</html>
