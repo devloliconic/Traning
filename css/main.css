@@ -507,6 +507,9 @@ training-grid-event:hover{
 .input-email:{
     margin-right: 170px;
 }
+.input-email:invalid{
+    border: 1px solid #AE0303;
+}
 .checkbox{
     position: absolute;
     z-index: -1;
@@ -1205,7 +1208,7 @@ label a:hover{
         margin-bottom: 40px;
     }
     .lowblock-content{
-        max-width: 46%;
+        max-width: 100%;
         margin-bottom: 40px;
     }
     .aboutas-adaptive .yellow-btn{
