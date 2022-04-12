@@ -12,10 +12,21 @@ function clickHandler(e) {
         behavior: "smooth"
 });
 }
-function openModal() {
+function openModalburger() {
     document.getElementById("modal").style.top = "0px";
 }
 
-function closeModal() {
+function closeModalburger() {
     document.getElementById("modal").style.top = "-400px";
+}
+
+function openModal() {
+    document.getElementById("modalinput").style.position = "fixed";
+    document.getElementById("modalinput").style.display = "block";
+    document.getElementById("modalinputContent").style.top = "0px";
+}
+
+function closeModal() {
+    document.getElementById("modalinput").style.position = "relative";
+    document.getElementById("modalinput").style.display = "none";
 }

@@ -18,7 +18,7 @@
                 <div class="header-items">
                     <div class="header-logo-burger">
                         <a class="header-logo" href="#"></a>
-                        <button class="burger-menu"  onclick="openModal()"></button>
+                        <button class="burger-menu"  onclick="openModalburger()"></button>
                     </div>
                            
                     <nav class="navigation-nav">
@@ -186,7 +186,7 @@
                     <div class="aboutas-hightblock-left">
                         <h2 class="aboutas-hightblock-left-title">О компании</h2>
                         <p class="aboutas-hightblock-left-subtitle">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы&nbsp;проводим <br> не только онлайн-тренировки.</p>
-                        <a href="" class="yellow-btn">Записаться</a>
+                        <a class="yellow-btn" onclick="openModal()">Записаться</a>
                     </div>
                     <div class="trener-img"></div>
                 </div>
@@ -232,7 +232,7 @@
                         <h3 class="lowblock-content-title">Опытный персонал</h3>
                         <p class="lowblock-contetn-subtitle">Стаж работы у наших тренеров от 5 лет</p>
                 </div>   
-                <a href="" class="yellow-btn">Записаться</a>
+                <a class="yellow-btn"  onclick="openModal()">Записаться</a>
                 <div class="trener-img"></div>  
             </div>
         </div> 
@@ -270,7 +270,7 @@
         <div class="container">
             <div class="logo-close">
                 <a class="header-logo" href="#"></a>
-                <button class="burger-close" onclick="closeModal()"></button>
+                <button class="burger-close" onclick="closeModalburger()"></button>
             </div>
             <ul class="navigation">
                 <li ><a class="nav-link" href="#">Мероприятия</a></li>
@@ -284,6 +284,24 @@
                 <a class = "social-book-footer" href="#"></a>
             </div>
         </div>    
+    </div>
+    <div class="fixed-overlay " id="modalinput">
+        <div class="modal-input" id ="modalinputContent">
+            <div class="container">
+                <div class="modal-content">
+                    <button class="burger-close" onclick="closeModal()"></button>
+                    <h1 class="modal-title">Заявка на участие
+                        «Марафон выносливости»</h1>
+                    <p class="modal-subtitle">Заполните все поля, и мы пришлем информацию в ближайшее время</p>
+                    <div class="input-panel">
+                        <input class="input-email" type="email" max="30" placeholder="Ваш e-mail">
+                        <input class="input-tel"  type="tel" max="30" placeholder="Ваш номер телефона">
+                        
+                    </div>
+                    <a class="yellow-btn">Записаться</a>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/main.js"></script>
 </body>
