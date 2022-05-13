@@ -367,9 +367,8 @@ header{
     border: 1px solid black;
     display: flex;
     flex-direction:column;
-    justify-content:end;
-    padding: 20px 30px;
-    position: relative;
+    justify-content: space-between;
+    padding: 3px 30px;
     transition: .2s;
 }
 .training-grid-event-box-subtitle{
@@ -385,8 +384,6 @@ header{
 }
 .training-grid-event-box-date{
     display: block;
-    position: absolute;
-    align-self: flex-start;
     top: 0;
     right: 30px;
     color: #010101;
@@ -394,6 +391,7 @@ header{
     font-weight: 400;
     opacity: 0.7;
     text-align: right;
+    margin-bottom: 0;
 }
 .training-grid-event-box-img{
     max-width: fit-content;
@@ -432,6 +430,7 @@ header{
     line-height: 150%;
     display: none;
     margin-bottom: 0;
+    margin-top: 0;
 }
 .training-grid-event:nth-child(5){
     grid-column: 2/3;
@@ -948,7 +947,7 @@ label a:hover{
         font-size: 14px;
     }
     .training-grid-event{
-        padding: 10px 20px;
+        padding: 10px 30px;
     }
 }
 
@@ -998,6 +997,9 @@ label a:hover{
     }
     .aboutas-lowblock {
         max-width: 75vw;
+    }
+    .training-grid-event-box-subtitle{
+        font-size: 13px;
     }
 }
 @media (max-width: 767px) {
@@ -1116,6 +1118,7 @@ label a:hover{
     .training-grid-event{
         width: 35%;
         max-width: 316px;
+        padding: 0 30px;
     }
     .malling-input-inf{
         margin: 0 auto;
@@ -1164,6 +1167,7 @@ label a:hover{
     }
     .training-grid-event-box-subtitle{
         margin-top: 0;
+        margin-bottom: 0;
     }
     .training-grid-event:nth-child(2){
         height: 224px;
@@ -1283,6 +1287,7 @@ label a:hover{
     .training-grid-event{
         width: 100%;
         max-width: 100%;
+        padding: 10px 30px;
     }
     .training-grid-event:nth-child(2){
         height: 114px;
@@ -1308,6 +1313,9 @@ label a:hover{
         display: flex;
         align-items: center;
         gap: 33px;
+    }
+    .training-grid-event-box-date{
+        margin-top: 0;
     }
     .training{
         margin-bottom: 80px;
